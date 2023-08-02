@@ -10,6 +10,7 @@ exclude:
 
 # Set plugins
 plugins:
+- jekyll-remote-theme
 - jekyll-sitemap
 - jekyll-mentions
 - jekyll-paginate
@@ -70,3 +71,5 @@ defaults:
       type: "pages"
     values:
       layout: page # Set the default layout for pages
+
+remote_theme: daviddarnes/alembic@main
